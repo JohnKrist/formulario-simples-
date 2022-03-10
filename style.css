@@ -1,0 +1,53 @@
+/* Exemplo de como importar fonte na folha de estilo */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+
+body {
+    font-family:import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap') ;
+    background-color: #b49c9c
+    
+  }
+  
+  .form {
+    margin: 4px;
+    margin: 0px auto;
+    background: white;
+    width: 200px;
+    max-width: 300px ;
+    height: auto ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+  }
+  .form input {
+    display: inline-block;
+    margin: 4px;
+    font-family: import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    background-color: rgb(218, 211, 211) ;
+    width: 150px;
+    border: 0px;
+    padding: 8px;
+    font-size: 12px;
+   
+  }
+  .form #username {
+    background-color: #868E96;
+  
+  }
+  .form button {
+    display: block;
+    margin: 0px auto;
+    font-family: import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    text-transform: uppercase ;
+    background-color: #5e42ff;
+    width: 165px ;
+    border: 0px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+    cursor:pointer ;
+  }
+  p{
+      font-size: 9px;
+  }
+ 
